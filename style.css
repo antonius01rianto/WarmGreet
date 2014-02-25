@@ -1,0 +1,378 @@
+body
+{
+	margin:0px;
+}
+
+#topline
+{
+	width:100%;
+	height:4px;
+	background-color:#BFBB00;
+}
+
+#headerindex
+{
+	background-color:#FAFEC5;
+	width:100%;
+	min-height:700px;	
+}
+
+#header
+{
+	background-color:#FAFEC5;
+	width:100%;
+	min-height:450px;
+}
+
+#Logo
+{
+	float:left; 
+	Margin:0px; 
+	width:100px; 
+	height:75px;
+	background-color:#F5FD66;
+}
+
+#menu
+{
+	background-color:#E9FE94;
+	width:100%;
+	min-height:50px;
+	text-align:center;
+	padding-top:25px;
+}
+
+.containmenu
+{
+	margin-left:30%;
+	width:40%;
+	margin-right:30%;
+}
+
+.menuname
+{
+	margin-left:5%;
+	margin-right:5%;
+	float:left;
+	min-width:10%;
+
+}
+
+.menuname a
+{
+	text-decoration:none;
+	color:#999;
+	font-size:12px;
+	font-weight:bolder:
+}
+
+.back a
+{
+	text-decoration:none;
+	color:#000;
+	font-weight:bolder:
+}
+
+.menuname a:hover
+{
+	text-decoration:none;
+	color:#FFF;
+}
+
+.Title
+{
+	width:40%;
+	margin-left:30%;
+	margin-right:30%;
+}
+
+.Title h1
+{
+	margin-top:100px;
+	margin-bottom:20px;
+}
+
+.Title h3
+{
+	margin-top:20px;
+}
+
+#inputname
+{
+	width:350px; 
+	height:35px; 
+	font-size:22px; 
+	background-color:#E9E9E9; 
+	margin-top:25px;
+}
+
+#inputemail
+{
+	width:350px; 
+	height:35px; 
+	font-size:22px; 
+	margin-top:10px;
+	background-color:#E9E9E9
+}
+
+#submitStart
+{
+	width:350px; 
+	height:35px; 
+	text-align:center; 
+	font-size:22px; 
+	margin-top:10px; 
+	background-color:#0F0; 
+	cursor:pointer;
+}
+
+.SigninBottom
+{
+	text-decoration:none;
+	color:#666;
+	font-weight:bolder;
+	margin-bottom:0px;
+	
+}
+
+.forgotpassword
+{
+	text-decoration:none;
+	color:#666;
+	font-weight:bolder;
+}
+
+
+.contain
+{
+	width:100%;
+	height:875px;
+}
+
+.frameblog
+{
+	width:60%;
+	height:250px; 
+	margin-bottom:30px; 
+	margin-left:20%;
+	margin-right:20%
+}
+
+.blogdate
+{
+	width:25%; 
+	margin-right:5%; 
+	height:100%; 
+	background-color:#999; 
+	float:left
+}
+
+.blogcontent
+{
+	width:70%; 
+	height:100%; 
+	background-color:#CCC; 
+	float:left
+}
+
+#subtitle
+{
+	width:auto;
+	border-bottom:thick;
+}
+
+.titlecontain
+{
+	padding-top:35px;
+	margin:0px;
+	font-family:'Tahoma', Geneva, sans-serif;
+}
+
+.journey
+{
+	padding-top:35px;
+	margin:0px;
+	font-family:'Tahoma', Geneva, sans-serif;
+}
+
+.story
+{
+	padding-top:35px;
+	margin:0px;
+	font-family:'Tahoma', Geneva, sans-serif;
+}
+
+
+.maincontain
+{
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+	height:500px;
+	background-color:#666;
+}
+
+.isi
+{
+	width:33.33%;
+	height:100%;
+	background-color:#CCC;
+	float:left;
+}
+
+#main1
+{
+	width:30%;
+	height:90%;
+	margin-top:2%;
+	margin-bottom:5%;
+	margin-left:1.665%;
+	margin-right:1.665%;
+	background-color:#CCC;
+	float:left;
+}
+
+#main2
+{
+	width:30%;
+	height:90%;
+	margin-top:2%;
+	margin-bottom:5%;
+	margin-left:1.665%;
+	margin-right:1.665%;
+	background-color:#999;
+	float:left;
+}
+
+#main3
+{
+	width:30%;
+	height:90%;
+	margin-top:2%;
+	margin-bottom:5%;
+	margin-left:1.665%;
+	margin-right:1.665%;
+	background-color:#CCC;
+	float:left;
+}
+
+.storyboard
+{
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:20px;
+	height:500px;
+}
+
+.storyframe
+{
+	float:left;
+	width:45%; 
+	padding:2.5%; 
+	height:45%;
+}
+
+.storycontent
+{
+	background-color:#CCC; 
+	width:100%; 
+	height:100%
+}
+
+.image
+{
+	width:100%;
+	height:550px;
+	background-color:#E9FE94;
+}
+
+.containbottom
+{
+	padding-top:35px;
+	margin:0px;
+	font-family:'Tahoma', Geneva, sans-serif;
+}
+
+.iconfree
+{
+	width:auto;
+	height:auto;
+	margin-top:20px;
+	margin-bottom:20px;	
+}
+
+#free1
+{
+	height:50px;
+	background-color:#9FC;
+	float:left;
+	margin-left:1.665%;
+	margin-right:1.665%;
+	min-width:30%;
+	border-radius:5px;
+}
+
+#free2
+{
+	height:50px;
+	background-color:#9FC;
+	float:left;
+	margin-left:1.665%;
+	margin-right:1.665%;
+	min-width:30%;
+	border-radius:5px;
+}
+
+#free3
+{
+	min-width:30%;
+	margin-left:1.665%;
+	margin-right:1.665%;
+	height:50px;
+	background-color:#9FC;
+	float:left;
+	border-radius:5px;
+}
+
+.containfree
+{
+	width:33.33%;
+	margin-left:33.33%;
+	margin-right:33.33%;
+	padding-bottom:50px;
+}
+
+#footer
+{
+	width:100%;
+	height:50px;
+	background-color:#E9FE94;
+}
+
+#containfooter
+{
+	width:40%;
+	height:100%;
+	margin-left:30%;
+	margin-right:30	%;
+}
+
+.textfooter
+{
+	padding-top:15px;
+	float:left;
+	min-width:12.5%;
+	margin-left:1.25%;
+	margin-right:1.25%;
+	color:#999;
+		
+}
+
+.textfooter a
+{
+	text-decoration:none;
+	color:#999;
+}
+
+
