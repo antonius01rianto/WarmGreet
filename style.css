@@ -8,6 +8,8 @@ body
 	width:100%;
 	height:4px;
 	background-color:#BFBB00;
+	position:fixed;
+	top:0px;
 }
 
 #headerindex
@@ -22,6 +24,7 @@ body
 	background-color:#FAFEC5;
 	width:100%;
 	min-height:450px;
+	top:0px;
 }
 
 #Logo
@@ -31,15 +34,19 @@ body
 	width:100px; 
 	height:75px;
 	background-color:#F5FD66;
+	position:fixed;
+	top:4px;
 }
 
 #menu
 {
 	background-color:#E9FE94;
 	width:100%;
-	min-height:50px;
+	min-height:75px;
 	text-align:center;
 	padding-top:25px;
+	position:fixed;
+	top:4px;
 }
 
 .containmenu
@@ -88,8 +95,9 @@ body
 
 .Title h1
 {
-	margin-top:100px;
+	margin-top:80px;
 	margin-bottom:20px;
+	padding-top:50px;
 }
 
 .Title h3

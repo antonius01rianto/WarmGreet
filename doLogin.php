@@ -1,5 +1,5 @@
 <?php
-	session_start(); 
+	session_start(): 
 	$con = mysql_connect("localhost","root","");
 	
 	$select = mysql_select_db("dbwg",$con);

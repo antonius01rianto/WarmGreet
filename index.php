@@ -5,6 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>WarmGreet</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
 	function cek(form)
 	{
@@ -69,10 +70,10 @@
         	<center>
             	
             	<form action="doInput.php" method="post" onsubmit="return cek(this)">
-                
-                	<input type="text" name="name" placeholder=" Your Name" id="inputname" /><br/>
-					<input type="text" name="email" placeholder=" Your Email" id="inputemail" /><br/>
-                    <div id="err" style="font-size:22px;"><?php 
+                	<input type="text" name="name" class="form-control" placeholder="Your Name" style="width:350px; margin-top:20px;">                    
+                	<input type="email" name="email" class="form-control" placeholder="Your Email" style="width:350px; margin-top:10px;">                    
+                    <input type="password" name="password" class="form-control" placeholder="Your Password" style="width:350px; margin-top:10px;">
+                    <div id="err" style="font-size:22px; color:#F00; margin-top:10px;"><?php 
 					if(isset($_SESSION['err']))
 					{
 						echo $_SESSION['err'];
@@ -83,7 +84,7 @@
 						echo "";
 					}
 					?></div>	
-                    <input type="submit" value="Get Started" id="submitStart" />
+                    <button type="submit" class="btn btn-success" style="width:350px;margin-left:5px; margin-top:20px;">Get Started</button>
                 </form>
             </center>
         </div>

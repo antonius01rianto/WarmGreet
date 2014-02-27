@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Warmgreet-Blog</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -13,11 +14,12 @@
         
         </div>
         
+        
+        
+    	<div id="menu">
         <a href="index.php"><div id="Logo">
             <center>LOGO</center>
         </div></a>
-        
-    	<div id="menu">
         	 
 			<div class="containmenu">
             	           

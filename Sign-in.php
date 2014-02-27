@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>WarmGreet-login</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
 	function cek(form)
 	{
@@ -36,7 +37,7 @@
 
 <body>
 	<!--Mulai Header-->
-	<div id="headerindex" style="min-height:593px;">
+	<div id="headerindex" style="min-height:513px;">
     	<div id="topline">
         
         </div>
@@ -74,13 +75,13 @@
         <div>
         	<center>
             	<form action="doLogin.php" method="post" onsubmit="return cek(this)">
-                	<input type="text" name="email" placeholder="Your Email" id="inputemail" style="" /><br/>
-                    <input type="password" name="password" placeholder="Password" id="inputname" /><br/>
-										
-                    <input type="submit" value="Get Started" id="submitStart" />
+                	<input type="text" name="email" class="form-control" placeholder="Your Email" style="width:350px; margin-top:20px;">
+                    <input type="password" name="password" class="form-control" placeholder="Your Password" style="width:350px; margin-top:10px;">
+					
+                    <button type="submit" class="btn btn-success" style="width:350px;margin-left:5px; margin-top:10px;">Login</button>	<br/>			
                 </form>
 				
-				<div id="err" style="font-size:22px;">
+				<div id="err" style="font-size:22px; color:#F00; margin-top:10px">
 				<?php 
 					if(isset($_SESSION['err']))
 					{
