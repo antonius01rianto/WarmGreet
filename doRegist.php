@@ -6,6 +6,7 @@
 	
 	$name=$_POST['name'];
 	$email=$_POST['email'];
+	$password=$_POST['password'];
 	
 	$query = "SELECT Email FROM user WHERE Email='".$email."'";
 	$result = mysql_query($query,$con);
@@ -20,8 +21,7 @@
 	else
 	{
 	
-		$pass = "wilyefendi";
-		$passhash = md5($pass);
+		$passhash = md5($password);
 		//mail($email,"Welcome to Warmgreet","Thanks for join with warmgreet, your passwod is '.$pass.' Please log in and change it now. Thanks ");
 	
 	
