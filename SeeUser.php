@@ -1,7 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <?php
 	session_start(); 
 ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -29,8 +30,8 @@
 			<td>Password</td>
 			</tr>
 			<?php
-				$con = mysql_connect("localhost","root","");
-				$select = mysql_select_db("dbwg",$con);
+				$con = mysql_connect("2ef4e5123a3083b3e63788dba6fbc9c9ac69a006.rackspaceclouddb.com","wg","warmgreet");
+				$select = mysql_select_db("warmgreetdb",$con);
 				$query = "SELECT * FROM user";
 				$result = mysql_query ($query,$con);
 				$total = mysql_num_rows($result);
