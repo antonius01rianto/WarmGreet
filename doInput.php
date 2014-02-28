@@ -1,8 +1,8 @@
 <?php
 	session_start(); 
-	$con = mysql_connect("localhost","root","");
+	$con = mysql_connect("2ef4e5123a3083b3e63788dba6fbc9c9ac69a006.rackspaceclouddb.com","wg","warmgreet");
 	
-	$select = mysql_select_db("dbwg",$con);
+	$select = mysql_select_db("warmgreetdb",$con);
 	
 	$name=$_POST['name'];
 	$email=$_POST['email'];
@@ -20,9 +20,7 @@
 	}
 	else
 	{
-	
-		$pass = "wilyefendi";
-		$passhash = md5($pass);
+		$passhash = md5($password);
 		//mail($email,"Welcome to Warmgreet","Thanks for join with warmgreet, your passwod is '.$pass.' Please log in and change it now. Thanks ");
 	
 	
