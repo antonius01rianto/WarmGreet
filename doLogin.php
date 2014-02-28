@@ -1,8 +1,8 @@
 <?php
 	session_start(): 
-	$con = mysql_connect("localhost","root","");
-	
-	$select = mysql_select_db("dbwg",$con);
+	$con = mysql_connect("2ef4e5123a3083b3e63788dba6fbc9c9ac69a006.rackspaceclouddb.com","wg","warmgreet");
+
+	$select = mysql_select_db("warmgreetdb",$con);
 	
 	$email=$_POST['email'];
 	$pass= $_POST['password'];
@@ -33,6 +33,6 @@
 	}
 	else
 	{
-		header('location:ACCOUNT.php');	
+		header('location:merchant-profile.php');	
 	}
 ?>
