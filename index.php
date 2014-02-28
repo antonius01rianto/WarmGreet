@@ -56,7 +56,10 @@
                 <div class="menuname">
                     <a href="Sign-in.php">SIGN IN</a>
                 </div>
-            </div></center>           
+            </div></center>
+            <a href="merchant-Profile.php"><div id="Logoprofile">
+                <center>LOGO PROFILE</center>
+            </div></a>           
         </div>
         <div class="Title">
         	<center><h1>
@@ -69,7 +72,7 @@
         <div>
         	<center>
             	
-            	<form action="doInput.php" method="post" onsubmit="return cek(this)">
+            	<form action="doRegist.php" method="post" onsubmit="return cek(this)">
                 	<input type="text" name="name" class="form-control" placeholder="Your Name" style="width:350px; margin-top:20px;">                    
                 	<input type="email" name="email" class="form-control" placeholder="Your Email" style="width:350px; margin-top:10px;">                    
                     <input type="password" name="password" class="form-control" placeholder="Your Password" style="width:350px; margin-top:10px;">

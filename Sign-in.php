@@ -37,7 +37,7 @@
 
 <body>
 	<!--Mulai Header-->
-	<div id="headerindex" style="min-height:513px;">
+	<div id="headerindex" style="min-height:518px;">
     	<div id="topline">
         
         </div>

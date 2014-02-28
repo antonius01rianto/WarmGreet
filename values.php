@@ -37,7 +37,10 @@
                 <div class="menuname">
                     <a href="Sign-in.php">SIGN IN</a>
                 </div>
-            </div>           
+            </div>  
+            <a href="merchant-Profile.php"><div id="Logoprofile">
+                <center>LOGO PROFILE</center>
+            </div></a>         
         </div>
         <div class="Title">
         	<center><h1>

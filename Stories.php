@@ -38,7 +38,10 @@
                 <div class="menuname">
                     <a href="Sign-in.php">SIGN IN</a>
                 </div>
-            </div>           
+            </div> 
+            <a href="merchant-Profile.php"><div id="Logoprofile">
+                <center>LOGO PROFILE</center>
+            </div></a>          
         </div>
         <div class="Title">
         	<center><h1>
@@ -51,12 +54,7 @@
             	Every Story is really special and always Extraordinary. Here are some of Your Story. 
             </h3></center>
         </div>
-        <div>
-        	<center>
-            	 
-            </center>
-        </div>
-    
+            
     </div>
     <!--Akhir Header-->
 
@@ -128,12 +126,12 @@ We have learned that Path can be a time capsule for new parents, a lifeline in s
             
             <div class="storyboard" style="height:400px">
             	
-                <div class="storyframe" style="padding-top:75px;">
+                <div class="storyframe" style="height:70%;padding-top:75px;">
                 	<div class="storycontent">
                     
                     </div>
                 </div>
-                <div class="storyframe" style="padding-top:75px;">
+                <div class="storyframe" style="height:70%;padding-top:75px;">
                 	<div class="storycontent">
                     
                     </div>

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Warmgreet-Blog</title>
+<title>Warmgreet-Stories</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
@@ -14,10 +14,10 @@
         
         </div>
         
-        
+       
         
     	<div id="menu">
-        <a href="index.php"><div id="Logo">
+         <a href="index.php"><div id="Logo">
             <center>LOGO</center>
         </div></a>
         	 
@@ -33,38 +33,47 @@
                     <a href="#">JOBS</a>
                 </div>
                 <div class="menuname">
-                    <a href="blog.php" style="color:#FFF">BLOG</a>
+                    <a href="blog.php">BLOG</a>
                 </div>
                 <div class="menuname">
-                    <a href="Sign-in.php">SIGN IN</a>
+                    <a href="merchant-Profile.php" style="color:#FFF">PROFILE</a>
                 </div>
-            </div>           
-        </div>
-        <a href="merchant-Profile.php"><div id="Logoprofile">
+            </div>
+            <a href="merchant-Profile.php"><div id="Logoprofile">
                 <center>LOGO PROFILE</center>
-            </div></a>
-        <div class="Title">
-        	<center><a href="index.php" style="text-decoration:none; color:#000"><h1>
-            	Warm Greet Blog
-            </h1></a></center>
-            
+            </div></a>           
         </div>
+        
+        <div class="headerprofile">
+        	<div class="headerblockpicture">
+            	<div class="pictureblock">
+                	<img src="img/Iron_Man_movie.jpg" class="pictureblock">
+                </div>
+            </div>
+            
+            <div class="blockupdate">
+            	<div class="blockbutton">
+                <div class="buttonupdate" style="margin-right:20%;">
+                    <button type="button" class="btn btn-primary"style="width:100%;height:100%">Set Picture</button>
+                </div>
+                <div class="buttonupdate">
+                    <button type="button" class="btn btn-primary" style="width:100%; height:100%">Set Cover</button>
+                    </div>
+                </div>
+                
+            </div>
+        
+        </div>
+        
     
     </div>
     <!--Akhir Header-->
 
     <!--Mulai Konten-->
-	<div class="frameblog">
-    <!--Frameblog ini akan di looping sebanyak share story user (menurut website path)-->
-    	<div class="blogdate">
-        	Tanggal
-        </div>
-        
-        <div class="blogcontent">
-        	Story
-        </div>
+	<div>
     
     </div>
+    
     <!--Akhir konten-->
     
     <!--Mulai Footer-->
