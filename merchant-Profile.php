@@ -70,7 +70,10 @@
     <!--Akhir Header-->
 
     <!--Mulai Konten-->
-	<div>
+	<div class="contain">
+    	<div style="width:80%; margin-left:10%; margin-right:10%; margin-top:5%; margin-bottom:5%; height:90%; background-color:#9FC">
+        
+        </div>
     
     </div>
     
