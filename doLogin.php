@@ -1,8 +1,7 @@
 <?php
-	session_start(): 
-	$con = mysql_connect("2ef4e5123a3083b3e63788dba6fbc9c9ac69a006.rackspaceclouddb.com","wg","123123");
-	
-	$select = mysql_select_db("warmgreetdb",$con);
+	session_start(); 
+	$con = mysql_connect("2ef4e5123a3083b3e63788dba6fbc9c9ac69a006.rackspaceclouddb.com","wg","warmgreet");	
+				$select = mysql_select_db("warmgreetdb",$con);
 	
 	$email=$_POST['email'];
 	$pass= $_POST['password'];
@@ -33,6 +32,7 @@
 	}
 	else
 	{
-		header('location:ACCOUNT.php');	
+		$_SESSION["username"]=$row['Name'];
+		header('location:merchant-Profile.php');	
 	}
 ?>

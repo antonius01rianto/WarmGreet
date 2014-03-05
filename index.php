@@ -1,3 +1,6 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -54,12 +57,30 @@
                     <a href="blog.php">BLOG</a>
                 </div>
                 <div class="menuname">
-                    <a href="Sign-in.php">SIGN IN</a>
-                </div>
+                <?php
+            	if(!isset($_SESSION['username']))
+				{
+					?>
+            <a href="merchant-Profile.php">PROFILE</a>
+            <?php 
+				} 
+				else
+				{ ?>
+				 <a href="Sign-in.php">SIGN IN</a>
+				<?php } ?>   
+            </div>
             </div></center>
-            <a href="merchant-Profile.php"><div id="Logoprofile">
-                <center>LOGO PROFILE</center>
-            </div></a>           
+            <?php
+            	if(!isset($_SESSION['username']))
+				{
+					?>
+            <a href="merchant-Profile.php"><div id="Logoprofile"><center>LOGO PROFILE</center></div></a>
+            <?php 
+				} 
+				else
+				{ echo "aaa";}
+			?>    
+			       
         </div>
         <div class="Title">
         	<center><h1>

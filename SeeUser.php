@@ -30,9 +30,7 @@
 			<td>Password</td>
 			</tr>
 			<?php
-				$con = mysql_connect("2ef4e5123a3083b3e63788dba6fbc9c9ac69a006.rackspaceclouddb.com","wg","warmgreet");
-				if(!$con)
-					echo "lkjlkj";	
+				$con = mysql_connect("2ef4e5123a3083b3e63788dba6fbc9c9ac69a006.rackspaceclouddb.com","wg","warmgreet");	
 				$select = mysql_select_db("warmgreetdb",$con);
 				$query = "SELECT * FROM user";
 				$result = mysql_query ($query,$con);

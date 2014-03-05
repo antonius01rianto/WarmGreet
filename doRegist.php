@@ -1,7 +1,6 @@
 <?php
 	session_start(); 
-	$con = mysql_connect("2ef4e5123a3083b3e63788dba6fbc9c9ac69a006.rackspaceclouddb.com","wg","123123");
-	
+	$con = mysql_connect("2ef4e5123a3083b3e63788dba6fbc9c9ac69a006.rackspaceclouddb.com","wg","warmgreet");	
 	$select = mysql_select_db("warmgreetdb",$con);
 	
 	$name=$_POST['name'];

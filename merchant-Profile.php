@@ -71,8 +71,25 @@
 
     <!--Mulai Konten-->
 	<div class="contain">
-    	<div style="width:80%; margin-left:10%; margin-right:10%; margin-top:5%; margin-bottom:5%; height:90%; background-color:#9FC">
+    	<div id="containblock">
         
+        	<div id="general">
+                <h4>
+                            General
+                </h4>
+                <form>
+                    <div class="isigeneral">
+                    	<label>First Name</label>
+                        <input type="text" name="Firstname" class="form-control" style="">
+                    </div>
+            	</form>
+        	</div>
+            
+            <div id="notification">
+            
+            </div>
+        
+                
         </div>
     
     </div>

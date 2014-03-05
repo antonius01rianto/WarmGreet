@@ -342,6 +342,67 @@ body
 	height:45%;
 }
 
+#containblock
+{
+	width:60%; 
+	margin-left:20%; 
+	margin-right:20%; 
+	margin-top:5%; 
+	margin-bottom:5%; 
+	height:90%; 
+	background-color:#9FC;
+}
+
+#general
+{
+	width:60%; 
+	height:100%; 
+	float:left
+}
+
+#general h4
+{
+	padding-bottom:8px;
+	margin-bottom:15px;
+	border:1px;
+	border-bottom-style:inset;
+	border-bottom-color:#999;
+	font-family:'Tahoma', Geneva, sans-serif
+
+}
+
+#general p
+{
+	font-family:'Tahoma', Geneva, sans-serif
+}
+
+.isigeneral
+{
+	width:100%; 
+	height:35px; 
+	background-color:#CF6;
+}
+
+.isigeneral label
+{
+	width:50%; 
+	float:left; 
+	padding-top:5px
+}
+
+.isigeneral input
+{
+	float:left;
+	width:50%;
+}
+
+#notification
+{
+	width:30%; 
+	height:100%; 
+	margin-left:10%; 
+	float:left;
+}
 
 .storycontent
 {
